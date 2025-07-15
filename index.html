@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home-section">
+                <h3>HOME</h3>
+                <div class="count-parent">
+                    <p id="count-home">0</p>
+                </div>
+                <div class="btn-parent">
+                    <button onclick="plus1home()">+1</button>
+                    <button onclick="plus2home()">+2</button>
+                    <button onclick="plus3home()">+3</button>
+                </div>
+            </div>
+            <div class="guest-section">
+                <h3>GUEST</h3>
+                <div class="count-parent">
+                    <p id="count-guest">0</p>
+                </div>
+                <div class="btn-parent">
+                    <button onclick="plus1guest()">+1</button>
+                    <button onclick="plus2guest()">+2</button>
+                    <button onclick="plus3guest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="reset-section">
+                <button class="reset-btn" onclick="reset()">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
